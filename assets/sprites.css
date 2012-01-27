@@ -1,0 +1,45 @@
+#nav { padding: 0; margin: 0; }
+.sprites { 
+	background: transparent url(assets/images/nav-sprite.png) no-repeat; 
+	height: 24px; 
+	width: 130px;
+	list-style-type: none; 
+	color: transparent;
+}
+
+
+#contact { background-position: 0 0; }
+#contact .active { background-position: -130px 0; }
+#contact:hover { background-position: -260px 0; }
+
+#double-bronze { background-position: -390px 0; }
+#double-bronze .active { background-position: -520px 0; }
+#double-bronze:hover { background-position: -650px 0; }
+
+#granite { background-position: -780px 0; }
+#granite .active { background-position: -910px 0; }
+#granite:hover { background-position: -1040px 0; }
+
+#home { background-position: -1170px 0; }
+#home .active { background-position: -1300px 0; }
+#home:hover { background-position: -1430px 0; }
+
+#landscape { background-position: -1560px 0; }
+#landscape .active { background-position: -1690px 0; }
+#landscape:hover { background-position: -1820px 0; }
+
+#links { background-position: -1950px 0; }
+#links .active { background-position: -2080px 0; }
+#links:hover { background-position: -2210px 0; }
+
+#signs { background-position: -2340px 0; }
+#signs .active { background-position: -2470px 0; }
+#signs:hover { background-position: -2600px 0; }
+
+#single-bronze { background-position: -2730px 0; }
+#single-bronze .active { background-position: -2860px 0; }
+#single-bronze:hover { background-position: -2990px 0; }
+
+#statuary { background-position: -3120px 0; }
+#statuary .active { background-position: -3250px 0; }
+#statuary:hover { background-position: -3380px 0; }
