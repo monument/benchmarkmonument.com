@@ -1,3 +1,4 @@
+// Google Analytics
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-28607914-2']);
 _gaq.push(['_trackPageview']);
@@ -8,6 +9,7 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
+// Guag.es
 var _gauges = _gauges || [];
 (function() {
 	var t   = document.createElement('script');
@@ -19,3 +21,13 @@ var _gauges = _gauges || [];
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(t, s);
 })();
+
+// Piwik
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.benchmarkmonument.com/piwik/" : "http://www.benchmarkmonument.com/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
