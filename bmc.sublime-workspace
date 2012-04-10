@@ -19,13 +19,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 17761,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 180.0,
 		"selected_items":
 		[
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"mer",
+				"Git: Merge Branch"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
 			[
 				"rei",
 				"Indentation: Reindent Lines"
@@ -55,36 +91,16 @@
 				"View: Toggle Status Bar"
 			],
 			[
-				"statu",
-				"View: Toggle Status Bar"
-			],
-			[
-				"pull",
-				"Git: Pull"
-			],
-			[
 				"push",
 				"Git: Push"
-			],
-			[
-				"comm",
-				"Git: Commit"
 			],
 			[
 				"st",
 				"Git: Status"
 			],
 			[
-				"add",
-				"Git: Add..."
-			],
-			[
 				"git ",
 				"Git: Status"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
 			],
 			[
 				"git",
@@ -231,7 +247,7 @@
 				"Set Syntax: Python"
 			]
 		],
-		"width": 567.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -248,6 +264,77 @@
 	},
 	"file_history":
 	[
+		"/home/hawken/Dropbox/sites/bmc/assets/scripts/ga.js",
+		"/home/hawken/Dropbox/sites/bmc/assets/scripts/gau.ges.js",
+		"/home/hawken/projects/bmc/assets/scripts/ga.js",
+		"/home/hawken/Dropbox/sites/bmc/index.html",
+		"/home/hawken/Dropbox/sites/bmc/html/bronze.html",
+		"/home/hawken/Dropbox/sites/bmc/html/contact.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze_gallery_0.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze_gallery_1.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze_gallery_2.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze_gallery_3.html",
+		"/home/hawken/Dropbox/sites/bmc/html/double_bronze_gallery_4.html",
+		"/home/hawken/Dropbox/sites/bmc/html/famous_graves.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_0.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_1.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_10.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_11.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_12.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_13.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_14.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_15.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_16.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_17.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_18.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_19.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_2.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_20.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_21.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_22.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_23.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_24.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_25.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_26.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_27.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_28.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_29.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_3.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_30.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_31.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_32.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_33.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_34.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_4.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_5.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_6.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_7.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_8.html",
+		"/home/hawken/Dropbox/sites/bmc/html/granite_gallery_9.html",
+		"/home/hawken/Dropbox/sites/bmc/html/hours.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_0.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_1.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_2.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_3.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_4.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_5.html",
+		"/home/hawken/Dropbox/sites/bmc/html/landscape_gallery_6.html",
+		"/home/hawken/Dropbox/sites/bmc/html/links.html",
+		"/home/hawken/Dropbox/sites/bmc/html/signs.html",
+		"/home/hawken/Dropbox/sites/bmc/html/signs_gallery_0.html",
+		"/home/hawken/Dropbox/sites/bmc/html/signs_gallery_1.html",
+		"/home/hawken/Dropbox/sites/bmc/html/signs_gallery_2.html",
+		"/home/hawken/Dropbox/sites/bmc/html/signs_gallery_3.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze_gallery_0.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze_gallery_1.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze_gallery_2.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze_gallery_3.html",
+		"/home/hawken/Dropbox/sites/bmc/html/single_bronze_gallery_4.html",
+		"/home/hawken/Dropbox/sites/bmc/html/statuary.html",
 		"/media/Data/Youth Sunday 2012/Order of Service/HTML Attempt/bt.less",
 		"/media/Data/Youth Sunday 2012/Order of Service/HTML Attempt/index.html",
 		"/media/Data/Youth Sunday 2012/Order of Service/HTML Attempt/less.less",
@@ -267,7 +354,6 @@
 		"/home/hawken/.config/sublime-text-2/Packages/Java/JavaC.sublime-build",
 		"/home/hawken/Dropbox/Activities/All Souls Unitarian Church/Youth Sunday/Youth Sunday 2012/Order of Service/HTML Attempt/less/thumbnails.less",
 		"/home/hawken/Dropbox/TU/examInfo/exam1/Exam1Review1.java",
-		"/home/hawken/projects/bmc/assets/scripts/ga.js",
 		"/home/hawken/untitled.mdown",
 		"/etc/sources",
 		"/etc/hosts",
@@ -305,11 +391,7 @@
 		"/home/hawken/.config/sublime-text-2/Packages/Prevu/Prevu.sublime-settings",
 		"/home/hawken/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
 		"/home/hawken/Documents/ys2012/seniors.markdown",
-		"/home/hawken/Documents/hello.aux",
-		"/home/hawken/.config/sublime-text-2/Packages/Abacus/Default (OSX).sublime-keymap",
-		"/home/hawken/.config/sublime-text-2/Packages/Abacus/Default (Linux).sublime-keymap",
-		"/home/hawken/.config/sublime-text-2/Packages/Java/class.sublime-snippet",
-		"/home/hawken/Templates/Java Class.java"
+		"/home/hawken/Documents/hello.aux"
 	],
 	"find":
 	{
@@ -317,9 +399,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -327,6 +410,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"gau",
+			"<script src=\"assets/scripts/gauge.js\"></script>",
+			"<script src=\"assets/scripts/ga.js\" async defer></script>",
 			"&mdash;",
 			"<p class=\"lyrics\">",
 			"<p class=\"lyrics onecolumn\">",
@@ -353,9 +439,13 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"<script src=\"assets/scripts/gau.ges.js\"></script>",
+			"<script src=\"assets/scripts/ga.js\"></script>\\n<script src=\"assets/scripts/gauge.js\"></script>",
+			"<script src=\"assets/scripts/ga.js\"></script>\\n<script src=\"assets/scripts/.js\"></script>",
+			"<script src=\"assets/scripts/ga.js\"></script>\\n<script src=\"assets/scripts/gauge.js\"></script>",
 			"—",
 			"<blockquote class=\"lyrics\">\n					<p>",
 			"<blockquote class=\"lyrics onecolumn\">\n					<p>",
@@ -376,13 +466,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 17761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17751,
+								17751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -403,18 +517,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -424,6 +531,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -446,7 +557,7 @@
 		"width": 380.0
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,

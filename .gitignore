@@ -2,3 +2,4 @@ wordpress/
 .DS_Store
 /wiki
 piwik/
+*.sublime*
