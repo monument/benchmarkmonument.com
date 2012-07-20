@@ -1,14 +1,17 @@
-body { background-image: url("images/Gray1_copy.gif");}
+body { 
+	background: url("images/Gray1_copy.gif");
+	width: 860px;
+	margin-top: 45px;
+}
 
 /* Header 
  *
  */
 
-
-
 /* Navigation */
 .navigation {
 	float: left;
+	margin-top: 300px;
 }
 .navigation ul {
 	margin: 0;
@@ -59,8 +62,24 @@ body { background-image: url("images/Gray1_copy.gif");}
 /* Footer
  *
  */
-.footer li {
-	display: inline;
-}
+.footer {text-align: center;}
+.footer li {display: inline;}
 .footer li:before {content: "["}
 .footer li:after {content: "]"}
+
+/* Content
+ *
+ */
+
+.content {}
+.contact-us {
+	text-align: center;
+}
+.contact-us li { list-style-type: none; }
+.header img {border: 2px solid black;}
+.header {
+	margin-left: 160px;
+}
+.caption {
+	width: 200px;
+}
