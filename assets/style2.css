@@ -12,6 +12,7 @@ body {
 .navigation {
 	float: left;
 	margin-top: 300px;
+	margin-left: 5px;
 }
 .navigation ul {
 	margin: 0;
@@ -62,18 +63,24 @@ body {
 /* Footer
  *
  */
-.footer {text-align: center;}
+.footer {text-align: center; margin-top: 150px;}
 .footer li {display: inline;}
 .footer li:before {content: "["}
 .footer li:after {content: "]"}
+.footer li.active a, .footer li:active a {color: black; text-decoration: none;}
 
 /* Content
  *
  */
 
-.content {}
+.content {
+	width: 630px;
+	margin-left: 190px;
+	font-family: Papyrus, Segoe Print, Calibri, Ubuntu, Helvetica, Lucida Grande, sans-serif;
+}
 .contact-us {
 	text-align: center;
+	font-weight: bold;
 }
 .contact-us li { list-style-type: none; }
 .header img {border: 2px solid black;}
@@ -82,4 +89,11 @@ body {
 }
 .caption {
 	width: 200px;
+	float: left;
+}
+.what-we-do p {
+	text-align: center;
+}
+.what-we-do ul {
+	margin-left: 200px;
 }
