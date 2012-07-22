@@ -29,76 +29,104 @@ body {
 	color: transparent;
 }
 
-.home 			{background: url("buttons/home.gif")}
-.home:hover     {background: url("buttons/home-hover.gif");}
-.granite 		{background: url("buttons/granite.gif")}
-.granite:hover 	{background: url("buttons/granite-hover.gif")}
-.bronze 		{background: url("buttons/bronze.gif")}
-.bronze:hover 	{background: url("buttons/bronze-hover.gif")}
-.single-bronze 	{background: url("buttons/single-bronze.gif")}
-.single-bronze:hover {background: url("buttons/single-bronze-hover.gif")}
-.double-bronze 	{background: url("buttons/double-bronze.gif")}
-.double-bronze:hover {background: url("buttons/double-bronze-hover.gif")}
-.statuary 		{background: url("buttons/statuary.gif")}
-.statuary:hover {background: url("buttons/statuary-hover.gif")}
-.landscape 		{background: url("buttons/landscape.gif")}
-.landscape:hover {background: url("buttons/landscape-hover.gif")}
-.signs 			{background: url("buttons/signs.gif")}
-.signs:hover 	{background: url("buttons/signs-hover.gif")}
-.contact 		{background: url("buttons/contact.gif")}
-.contact:hover 	{background: url("buttons/contact-hover.gif")}
-.links 			{background: url("buttons/links.gif")}
-.links:hover 	{background: url("buttons/links-hover.gif")}
-.home:active, 	.home.active				{background: url("buttons/home-active.gif")}
-.granite:active,.granite.active 			{background: url("buttons/granite-active.gif")}
-.bronze:active, .bronze.active 				{background: url("buttons/bronze-active.gif")}
+.home           {background: url("buttons/home.gif")}
+.home:hover     {background: url("buttons/home-hover.gif") !important}
+.granite        {background: url("buttons/granite.gif")}
+.granite:hover  {background: url("buttons/granite-hover.gif") !important}
+.bronze         {background: url("buttons/bronze.gif")}
+.bronze:hover   {background: url("buttons/bronze-hover.gif") !important}
+.single-bronze  {background: url("buttons/single-bronze.gif")}
+.single-bronze:hover {background: url("buttons/single-bronze-hover.gif") !important}
+.double-bronze  {background: url("buttons/double-bronze.gif")}
+.double-bronze:hover {background: url("buttons/double-bronze-hover.gif") !important}
+.statuary       {background: url("buttons/statuary.gif")}
+.statuary:hover {background: url("buttons/statuary-hover.gif") !important}
+.landscape      {background: url("buttons/landscape.gif")}
+.landscape:hover {background: url("buttons/landscape-hover.gif") !important}
+.signs          {background: url("buttons/signs.gif")}
+.signs:hover    {background: url("buttons/signs-hover.gif") !important}
+.contact        {background: url("buttons/contact.gif")}
+.contact:hover  {background: url("buttons/contact-hover.gif") !important}
+.links          {background: url("buttons/links.gif")}
+.links:hover    {background: url("buttons/links-hover.gif") !important}
+.home:active,   .home.active                {background: url("buttons/home-active.gif")}
+.granite:active,.granite.active             {background: url("buttons/granite-active.gif")}
+.bronze:active, .bronze.active              {background: url("buttons/bronze-active.gif")}
 .single-bronze:active, .single-bronze.active {background: url("buttons/single-bronze-active.gif")}
 .double-bronze:active, .double-bronze.active {background: url("buttons/double-bronze-active.gif")}
-.statuary:active, .statuary.active 			{background: url("buttons/statuary-active.gif")}
-.landscape:active, .landscape.active 		{background: url("buttons/landscape-active.gif")}
-.signs:active, .signs.active 				{background: url("buttons/signs-active.gif")}
-.contact:active, .contact.active 			{background: url("buttons/contact-active.gif")}
-.links:active, .links.active 				{background: url("buttons/links-active.gif")}
+.statuary:active, .statuary.active          {background: url("buttons/statuary-active.gif")}
+.landscape:active, .landscape.active        {background: url("buttons/landscape-active.gif")}
+.signs:active, .signs.active                {background: url("buttons/signs-active.gif")}
+.contact:active, .contact.active            {background: url("buttons/contact-active.gif")}
+.links:active, .links.active                {background: url("buttons/links-active.gif")}
 
-/* Footer
- *
- */
+/* Footer */
 .footer {text-align: center; margin-top: 150px;}
 .footer li {display: inline;}
 .footer li:before {content: "["}
 .footer li:after {content: "]"}
 .footer li.active a, .footer li:active a {color: black; text-decoration: none;}
 
-/* Content
- *
- */
+/* Content */
 
 .content {
 	width: 630px;
 	margin-left: 190px;
 	font-family: Papyrus, Segoe Print, Calibri, Ubuntu, Helvetica, Lucida Grande, sans-serif;
 }
+
 .contact-us {
 	text-align: center;
 	font-weight: bold;
 }
-.contact-us li { list-style-type: none; }
+.contact-us li {list-style-type: none;}
+
 .header img {border: 2px solid black;}
 .header {
 	margin-left: 160px;
 }
+
 .caption {
 	width: 200px;
 	float: left;
 }
-.what-we-do p {
+
+.what-we-do p {text-align: center;}
+.what-we-do ul {margin-left: 200px;}
+
+.content h1 {text-align: center;}
+.center {text-align: center; margin: 0 auto;}
+
+
+/*****************/
+.gallery {
+	width: 95%;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+	columns: 3;
+	line-height: 1em;
+	margin-left: 0;
+	padding-left: 0;
 	text-align: center;
-}
-.what-we-do ul {
-	margin-left: 200px;
 }
 
-.content h1 {
-	text-align: center;
+.gallery li {
+	list-style-type: none;
+	margin-bottom: 1em;
+	background: rgba(255, 255, 255, .75);
 }
-.center {text-align: center; margin: 0 auto;}
+
+.gallery img {
+	width: 95%;
+}
+
+.gallery a {
+	text-decoration: none;
+}
+
+.gallery p {
+	position: relative;
+	z-index: 1;
+	padding: .2em 0;
+	margin: 0;
+}
