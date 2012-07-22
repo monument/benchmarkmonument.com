@@ -1,12 +1,10 @@
 body { 
-	background: url("images/Gray1_copy.gif");
+	background: url("images/background.gif");
 	width: 860px;
 	margin-top: 45px;
 }
 
-/* Header 
- *
- */
+/* Header */
 
 /* Navigation */
 .navigation {
