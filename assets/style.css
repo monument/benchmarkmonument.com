@@ -98,7 +98,6 @@ body {
 
 /*****************/
 .gallery {
-	width: 95%;
 	-webkit-columns: 3;
 	-moz-columns: 3;
 	columns: 3;
