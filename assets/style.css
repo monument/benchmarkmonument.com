@@ -94,11 +94,11 @@ body {
     list-style-type: none;
     margin-bottom: 1em;
     background: rgba(255, 255, 255, .75);
+    display: inline-block;
 }
 
 .gallery img { width: 95%; }
-
-.gallery a { text-decoration: none; }
+.gallery a { text-decoration: none;  }
 
 .gallery p {
     padding: .2em 0;
