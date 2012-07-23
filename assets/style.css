@@ -64,8 +64,8 @@ body {
 }
 .content h1 { text-align: center; }
 
-.contact { text-align: center; font-weight: bold; }
-.contact li { list-style-type: none; }
+.content .contact { text-align: center; font-weight: bold; }
+.content .contact li { list-style-type: none; }
 
 .header img { border: 2px solid black; }
 .header { margin-left: 160px; }
