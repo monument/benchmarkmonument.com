@@ -21,7 +21,6 @@ body {
     width: 130px;
     height: 24px;
 }
-.nav a { color: transparent; } /* Hide the text */
 
 /* Establish the navigation buttons */
 .nav .home             { background: url("buttons/home.gif") }
@@ -50,7 +49,7 @@ body {
 .nav .links.active     { background: url("buttons/links-active.gif") }
 
 /*## Footer ##*/
-.footer { text-align: center; margin-top: 150px; } /* Make sure the footer doesn't compete with the content */
+.footer { text-align: center; margin-top: 50px; } /* Make sure the footer doesn't compete with the content */
 .footer li { display: inline; } /* Make the list show on one line */
 .footer li:before { content: "[" } 
 .footer li:after  { content: "]" } /* These two put [ and ] before and after each item */
@@ -93,12 +92,15 @@ body {
 .gallery li {
     list-style-type: none;
     margin-bottom: 1em;
+    background: white;
     background: rgba(255, 255, 255, .75);
-    display: inline-block;
 }
 
 .gallery img { width: 95%; }
-.gallery a { text-decoration: none;  }
+.gallery a { 
+    display: inline-block;
+    text-decoration: none; 
+}
 
 .gallery p {
     padding: .2em 0;
