@@ -1,0 +1,8 @@
+.gallery {
+	-webkit-columns: 1;
+}
+
+.gallery li {
+	display: inline;
+	width: 200px;
+}
