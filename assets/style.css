@@ -8,13 +8,13 @@ body {
 /*# Header #*/
 
 /*## Navigation ##*/
-.nav {
+nav {
     float: left;
     margin-top: 300px;
     margin-left: 5px;
 }
-.nav ul { margin: 0; padding: 0; }
-.nav li {
+nav ul { margin: 0; padding: 0; }
+nav li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,37 +23,36 @@ body {
 }
 
 /* Establish the navigation buttons */
-.nav .home             { background: url("buttons/home.gif") }
-.nav .home:hover       { background: url("buttons/home-hover.gif") !important }
-.nav .home.active      { background: url("buttons/home-active.gif") }
-.nav .granite          { background: url("buttons/granite.gif") }
-.nav .granite:hover    { background: url("buttons/granite-hover.gif") !important }
-.nav .granite.active   { background: url("buttons/granite-active.gif") }
-.nav .bronze           { background: url("buttons/bronze.gif") }
-.nav .bronze:hover     { background: url("buttons/bronze-hover.gif") !important }
-.nav .bronze.active    { background: url("buttons/bronze-active.gif") }
-.nav .statuary         { background: url("buttons/statuary.gif") }
-.nav .statuary:hover   { background: url("buttons/statuary-hover.gif") !important }
-.nav .statuary.active  { background: url("buttons/statuary-active.gif") }
-.nav .landscape        { background: url("buttons/landscape.gif") }
-.nav .landscape:hover  { background: url("buttons/landscape-hover.gif") !important }
-.nav .landscape.active { background: url("buttons/landscape-active.gif") }
-.nav .signs            { background: url("buttons/signs.gif") }
-.nav .signs:hover      { background: url("buttons/signs-hover.gif") !important }
-.nav .signs.active     { background: url("buttons/signs-active.gif") }
-.nav .contact          { background: url("buttons/contact.gif") }
-.nav .contact:hover    { background: url("buttons/contact-hover.gif") !important }
-.nav .contact.active   { background: url("buttons/contact-active.gif") }
-.nav .links            { background: url("buttons/links.gif") }
-.nav .links:hover      { background: url("buttons/links-hover.gif") !important }
-.nav .links.active     { background: url("buttons/links-active.gif") }
+nav .home             { background: url("buttons/home.gif") }
+nav .home:hover       { background: url("buttons/home-hover.gif") !important }
+nav .home.active      { background: url("buttons/home-active.gif") }
+nav .granite          { background: url("buttons/granite.gif") }
+nav .granite:hover    { background: url("buttons/granite-hover.gif") !important }
+nav .granite.active   { background: url("buttons/granite-active.gif") }
+nav .bronze           { background: url("buttons/bronze.gif") }
+nav .bronze:hover     { background: url("buttons/bronze-hover.gif") !important }
+nav .bronze.active    { background: url("buttons/bronze-active.gif") }
+nav .statuary         { background: url("buttons/statuary.gif") }
+nav .statuary:hover   { background: url("buttons/statuary-hover.gif") !important }
+nav .statuary.active  { background: url("buttons/statuary-active.gif") }
+nav .landscape        { background: url("buttons/landscape.gif") }
+nav .landscape:hover  { background: url("buttons/landscape-hover.gif") !important }
+nav .landscape.active { background: url("buttons/landscape-active.gif") }
+nav .signs            { background: url("buttons/signs.gif") }
+nav .signs:hover      { background: url("buttons/signs-hover.gif") !important }
+nav .signs.active     { background: url("buttons/signs-active.gif") }
+nav .contact          { background: url("buttons/contact.gif") }
+nav .contact:hover    { background: url("buttons/contact-hover.gif") !important }
+nav .contact.active   { background: url("buttons/contact-active.gif") }
+nav .links            { background: url("buttons/links.gif") }
+nav .links:hover      { background: url("buttons/links-hover.gif") !important }
+nav .links.active     { background: url("buttons/links-active.gif") }
 
 /*## Footer ##*/
-.footer { text-align: center; margin-top: 50px; } /* Make sure the footer doesn't compete with the content */
-.footer li { display: inline; } /* Make the list show on one line */
-.footer li:before { content: "[" } 
-.footer li:after  { content: "]" } /* These two put [ and ] before and after each item */
-.footer li.active a { color: black; text-decoration: none; } /* Distinguish between active and not-active links */
+footer li { display: inline; } /* Make the list show on one line */
+footer li:before { content: "[" } 
+footer li:after  { content: "]" } /* These two put [ and ] before and after each item */
+footer li.active a { color: black; text-decoration: none; } /* Distinguish between active and not-active links */
 
 /*## Content ##*/
 
@@ -67,8 +66,8 @@ body {
 .content .contact { text-align: center; font-weight: bold; }
 .content .contact li { list-style-type: none; }
 
-.header img { border: 2px solid black; }
-.header { margin-left: 160px; }
+header img { border: 2px solid black; }
+header { margin-left: 160px; }
 
 .what-we-do p { text-align: center; }
 .what-we-do ul { margin-left: 200px; }
@@ -80,9 +79,10 @@ body {
 
 /*****************/
 .gallery {
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    column-width: 150px;
     line-height: 1em;
     margin-left: 0;
     padding-left: 0;
@@ -96,11 +96,11 @@ body {
     background: rgba(255, 255, 255, .75);
 }
 
-.gallery img { width: 95%; outline: 0; }
+.gallery img { width: 95%; border: 0; }
 .gallery a { 
     display: inline-block;
     text-decoration: none; 
-    text-color: black;
+    color: black;
 }
 
 .gallery p {
