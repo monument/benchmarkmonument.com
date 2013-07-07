@@ -1,0 +1,154 @@
+@import url("../fonts/bosnia-thin.css");
+@import url("normalize.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300);
+.container {
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto; }
+  @media (min-width: 80em) {
+    .container {
+      max-width: 60em; } }
+  @media (max-width: 40em) {
+    .container {
+      width: 95%; } }
+
+body {
+  font-family: Open Sans;
+  margin: 0; }
+
+.widget {
+  float: right;
+  clear: right;
+  font-size: .85em;
+  width: 25%;
+  border-top: solid 1px darkred;
+  margin-bottom: 1em; }
+  .widget ul, .widget ol {
+    margin: 0;
+    padding: 0; }
+  .widget ul li {
+    list-style-type: none; }
+  .widget .widget-title {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-family: Bosnia Thin; }
+
+.meta {
+  font-size: .85em; }
+  .meta > * {
+    display: inline-block; }
+  .meta .author {
+    text-transform: uppercase; }
+  .meta .tags {
+    margin-left: 1em; }
+    .meta .tags a {
+      text-decoration: none; }
+    .meta .tags a:hover {
+      text-decoration: underline; }
+    .meta .tags a::before {
+      content: "#"; }
+    .meta .tags ul, .meta .tags ol {
+      margin: 0;
+      padding: 0; }
+    .meta .tags ul li {
+      list-style-type: none; }
+    .meta .tags li {
+      display: inline-block;
+      margin: 0 0.2em; }
+      .meta .tags li:first-child {
+        margin-left: 0; }
+      .meta .tags li:last-child {
+        margin-right: 0; }
+
+#site-header {
+  font-family: Bosnia Thin;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase; }
+
+#title {
+  font-size: 2.5em;
+  margin-bottom: 0; }
+
+#logo {
+  float: right; }
+
+#main-menu {
+  margin-top: 1em;
+  margin-bottom: 1.675em; }
+  #main-menu ul, #main-menu ol {
+    margin: 0;
+    padding: 0; }
+  #main-menu ul li {
+    list-style-type: none; }
+  #main-menu li {
+    display: inline-block;
+    margin: 0 0.35em; }
+    #main-menu li:first-child {
+      margin-left: 0; }
+    #main-menu li:last-child {
+      margin-right: 0; }
+  #main-menu li {
+    cursor: pointer;
+    min-width: 5em;
+    border-bottom: solid 2px darkred; }
+    #main-menu li:hover {
+      background-color: darkred;
+      color: white; }
+
+#site-footer {
+  clear: both;
+  background-color: darkred;
+  margin-top: 3em;
+  padding: .5em 0 3em; }
+
+body > .container > section {
+  float: left;
+  max-width: 64%; }
+
+.post-series .post-title, #topics .post-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-indent: -0.5em;
+  padding-left: 0.5em; }
+
+.post-series {
+  list-style-type: decimal;
+  padding-left: 2em !important; }
+  .post-series .post-snippet {
+    display: none; }
+  .post-series .post-snippet.expanded {
+    display: block; }
+
+.post-type-testimonial::after {
+  display: block;
+  text-align: right;
+  content: "— " attr(data-author); }
+
+.post-type-testimonial + * {
+  clear: both; }
+
+#why-us ul, #why-us ol {
+  margin: 0;
+  padding: 0; }
+#why-us ul li {
+  list-style-type: none; }
+
+#about {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -ms-column-count: 2;
+  column-count: 2;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+  #about p {
+    margin-top: 0; }
+
+.gallery {
+  margin: 0;
+  padding: 0; }
+  .gallery li {
+    list-style-type: none; }

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Bosnia Thin';
+    src: url('bosnia-thin-bold.eot');
+    src: url('bosnia-thin-bold.eot?#iefix') format('embedded-opentype'),
+         url('bosnia-thin-bold.woff') format('woff'),
+         url('bosnia-thin-bold.ttf') format('truetype'),
+         url('bosnia-thin-bold.svg#bosnia_thinbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bosnia Thin';
+    src: url('bosnia-thin-normal.eot');
+    src: url('bosnia-thin-normal.eot?#iefix') format('embedded-opentype'),
+         url('bosnia-thin-normal.woff') format('woff'),
+         url('bosnia-thin-normal.ttf') format('truetype'),
+         url('bosnia-thin-normal.svg#bosnia_thinnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
