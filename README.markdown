@@ -8,6 +8,4 @@ The source behind www.benchmarkmonument.com
 	- Order Statuses
 - Retail Customer Portal
 	- Order Status
-	- Pictures of finished work
-
-order
+	- Pictures of finished work order
