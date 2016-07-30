@@ -1,3 +1,19 @@
 /* CSS definition file containing sitestyle stylesheets */
 body { background-image: url("images/Gray1_copy.gif");}
-td a img { margin-bottom: -5px; } 
+td a img { margin-bottom: -5px; }
+
+#NavigationBar4_1LYR {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#NavigationBar4_2LYR {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
