@@ -4,22 +4,69 @@ body {
 
     margin: 16px 10px;
 }
+
 td a img {
-    margin-bottom: -5px;
+    margin-bottom: -4px;
 }
 
-#NavigationBar4_1LYR {
-    position: absolute;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    z-index: 1;
+* {
+    box-sizing: border-box;
 }
 
-#NavigationBar4_2LYR {
-    position: absolute;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    z-index: 1;
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    border: outset 2px gray;
 }
+
+#navbar a {
+    color: transparent;
+    display: block;
+    height: 26px;
+    width: 132px;
+
+    background-repeat: no-repeat;
+    border: inset 1px gray;
+}
+
+#link-home { background-image: url("/assets/images/auto_generated_images/home_base.gif"); }
+#link-home:hover { background-image: url("/assets/images/auto_generated_images/home_hover.gif"); }
+#link-home.active { background-image: url("/assets/images/auto_generated_images/home_active.gif"); }
+
+#link-granite { background-image: url("/assets/images/auto_generated_images/granite_base.gif"); }
+#link-granite:hover { background-image: url("/assets/images/auto_generated_images/granite_hover.gif"); }
+#link-granite.active { background-image: url("/assets/images/auto_generated_images/granite_active.gif"); }
+
+#link-bronze { background-image: url("/assets/images/auto_generated_images/bronze_base.gif"); }
+#link-bronze:hover { background-image: url("/assets/images/auto_generated_images/bronze_hover.gif"); }
+#link-bronze.active { background-image: url("/assets/images/auto_generated_images/bronze_active.gif"); }
+
+#link-single-bronze { background-image: url("/assets/images/auto_generated_images/single_bronze_base.gif"); }
+#link-single-bronze:hover { background-image: url("/assets/images/auto_generated_images/single_bronze_hover.gif"); }
+#link-single-bronze.active { background-image: url("/assets/images/auto_generated_images/single_bronze_active.gif"); }
+
+#link-double-bronze { background-image: url("/assets/images/auto_generated_images/double_bronze_base.gif"); }
+#link-double-bronze:hover { background-image: url("/assets/images/auto_generated_images/double_bronze_hover.gif"); }
+#link-double-bronze.active { background-image: url("/assets/images/auto_generated_images/double_bronze_active.gif"); }
+
+#link-statuary { background-image: url("/assets/images/auto_generated_images/statuary_base.gif"); }
+#link-statuary:hover { background-image: url("/assets/images/auto_generated_images/statuary_hover.gif"); }
+#link-statuary.active { background-image: url("/assets/images/auto_generated_images/statuary_active.gif"); }
+
+#link-landscape { background-image: url("/assets/images/auto_generated_images/landscape_base.gif"); }
+#link-landscape:hover { background-image: url("/assets/images/auto_generated_images/landscape_hover.gif"); }
+#link-landscape.active { background-image: url("/assets/images/auto_generated_images/landscape_active.gif"); }
+
+#link-signs { background-image: url("/assets/images/auto_generated_images/signs_base.gif"); }
+#link-signs:hover { background-image: url("/assets/images/auto_generated_images/signs_hover.gif"); }
+#link-signs.active { background-image: url("/assets/images/auto_generated_images/signs_active.gif"); }
+
+#link-contact { background-image: url("/assets/images/auto_generated_images/contact_base.gif"); }
+#link-contact:hover { background-image: url("/assets/images/auto_generated_images/contact_hover.gif"); }
+#link-contact.active { background-image: url("/assets/images/auto_generated_images/contact_active.gif"); }
+
+#link-links { background-image: url("/assets/images/auto_generated_images/links_base.gif"); }
+#link-links:hover { background-image: url("/assets/images/auto_generated_images/links_hover.gif"); }
+#link-links.active { background-image: url("/assets/images/auto_generated_images/links_active.gif"); }
