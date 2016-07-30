@@ -74,3 +74,21 @@ td a img {
 #link-links { background-image: url("/images/menu/links.gif"); }
 #link-links:hover { background-image: url("/images/menu/links.hover.gif"); }
 #link-links.active { background-image: url("/images/menu/links.active.gif"); }
+
+
+.gallery-single {
+    text-align: center;
+}
+
+.gallery-single img {
+    border: 18px solid;
+    border-image: url(/images/frame.png) 18 repeat;
+    box-shadow: 2px 2px 4px #444;
+}
+
+.gallery-single figcaption {
+    font-family: Papyrus, cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5em;
+}
