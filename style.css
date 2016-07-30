@@ -1,6 +1,6 @@
 /* CSS definition file containing sitestyle stylesheets */
 body {
-    background-image: url("images/Gray1_copy.gif");
+    background-image: url("images/bg.gif");
 
     margin: 16px 10px;
 }
@@ -35,42 +35,42 @@ td a img {
     border: inset 1px gray;
 }
 
-#link-home { background-image: url("/images/menu/home_base.gif"); }
-#link-home:hover { background-image: url("/images/menu/home_hover.gif"); }
-#link-home.active { background-image: url("/images/menu/home_active.gif"); }
+#link-home { background-image: url("/images/menu/home.gif"); }
+#link-home:hover { background-image: url("/images/menu/home.hover.gif"); }
+#link-home.active { background-image: url("/images/menu/home.active.gif"); }
 
-#link-granite { background-image: url("/images/menu/granite_base.gif"); }
-#link-granite:hover { background-image: url("/images/menu/granite_hover.gif"); }
-#link-granite.active { background-image: url("/images/menu/granite_active.gif"); }
+#link-granite { background-image: url("/images/menu/granite.gif"); }
+#link-granite:hover { background-image: url("/images/menu/granite.hover.gif"); }
+#link-granite.active { background-image: url("/images/menu/granite.active.gif"); }
 
-#link-bronze { background-image: url("/images/menu/bronze_base.gif"); }
-#link-bronze:hover { background-image: url("/images/menu/bronze_hover.gif"); }
-#link-bronze.active { background-image: url("/images/menu/bronze_active.gif"); }
+#link-bronze { background-image: url("/images/menu/bronze.gif"); }
+#link-bronze:hover { background-image: url("/images/menu/bronze.hover.gif"); }
+#link-bronze.active { background-image: url("/images/menu/bronze.active.gif"); }
 
-#link-single-bronze { background-image: url("/images/menu/single_bronze_base.gif"); }
-#link-single-bronze:hover { background-image: url("/images/menu/single_bronze_hover.gif"); }
-#link-single-bronze.active { background-image: url("/images/menu/single_bronze_active.gif"); }
+#link-single-bronze { background-image: url("/images/menu/single_bronze.gif"); }
+#link-single-bronze:hover { background-image: url("/images/menu/single_bronze.hover.gif"); }
+#link-single-bronze.active { background-image: url("/images/menu/single_bronze.active.gif"); }
 
-#link-double-bronze { background-image: url("/images/menu/double_bronze_base.gif"); }
-#link-double-bronze:hover { background-image: url("/images/menu/double_bronze_hover.gif"); }
-#link-double-bronze.active { background-image: url("/images/menu/double_bronze_active.gif"); }
+#link-double-bronze { background-image: url("/images/menu/double_bronze.gif"); }
+#link-double-bronze:hover { background-image: url("/images/menu/double_bronze.hover.gif"); }
+#link-double-bronze.active { background-image: url("/images/menu/double_bronze.active.gif"); }
 
-#link-statuary { background-image: url("/images/menu/statuary_base.gif"); }
-#link-statuary:hover { background-image: url("/images/menu/statuary_hover.gif"); }
-#link-statuary.active { background-image: url("/images/menu/statuary_active.gif"); }
+#link-statuary { background-image: url("/images/menu/statuary.gif"); }
+#link-statuary:hover { background-image: url("/images/menu/statuary.hover.gif"); }
+#link-statuary.active { background-image: url("/images/menu/statuary.active.gif"); }
 
-#link-landscape { background-image: url("/images/menu/landscape_base.gif"); }
-#link-landscape:hover { background-image: url("/images/menu/landscape_hover.gif"); }
-#link-landscape.active { background-image: url("/images/menu/landscape_active.gif"); }
+#link-landscape { background-image: url("/images/menu/landscape.gif"); }
+#link-landscape:hover { background-image: url("/images/menu/landscape.hover.gif"); }
+#link-landscape.active { background-image: url("/images/menu/landscape.active.gif"); }
 
-#link-signs { background-image: url("/images/menu/signs_base.gif"); }
-#link-signs:hover { background-image: url("/images/menu/signs_hover.gif"); }
-#link-signs.active { background-image: url("/images/menu/signs_active.gif"); }
+#link-signs { background-image: url("/images/menu/signs.gif"); }
+#link-signs:hover { background-image: url("/images/menu/signs.hover.gif"); }
+#link-signs.active { background-image: url("/images/menu/signs.active.gif"); }
 
-#link-contact { background-image: url("/images/menu/contact_base.gif"); }
-#link-contact:hover { background-image: url("/images/menu/contact_hover.gif"); }
-#link-contact.active { background-image: url("/images/menu/contact_active.gif"); }
+#link-contact { background-image: url("/images/menu/contact.gif"); }
+#link-contact:hover { background-image: url("/images/menu/contact.hover.gif"); }
+#link-contact.active { background-image: url("/images/menu/contact.active.gif"); }
 
-#link-links { background-image: url("/images/menu/links_base.gif"); }
-#link-links:hover { background-image: url("/images/menu/links_hover.gif"); }
-#link-links.active { background-image: url("/images/menu/links_active.gif"); }
+#link-links { background-image: url("/images/menu/links.gif"); }
+#link-links:hover { background-image: url("/images/menu/links.hover.gif"); }
+#link-links.active { background-image: url("/images/menu/links.active.gif"); }
