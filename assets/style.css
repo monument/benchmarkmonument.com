@@ -13,6 +13,10 @@ td a img {
     box-sizing: border-box;
 }
 
+#building {
+    border: solid 2px black;
+}
+
 #navbar {
     margin: 0;
     padding: 0;
