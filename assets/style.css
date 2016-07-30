@@ -1,6 +1,12 @@
 /* CSS definition file containing sitestyle stylesheets */
-body { background-image: url("images/Gray1_copy.gif");}
-td a img { margin-bottom: -5px; }
+body {
+    background-image: url("images/Gray1_copy.gif");
+
+    margin: 16px 10px;
+}
+td a img {
+    margin-bottom: -5px;
+}
 
 #NavigationBar4_1LYR {
     position: absolute;
