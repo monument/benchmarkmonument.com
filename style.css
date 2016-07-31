@@ -31,10 +31,9 @@ td a img {
     height: 26px;
     width: 132px;
 
-    background-repeat: no-repeat;
     border: inset 1px gray;
 
-    background-image: url(/images/menu.png);
+    background: url(/images/menu.png) no-repeat;
 }
 
 #link-home { background-position: 0 0; }
@@ -156,7 +155,7 @@ main {
 
 .gallery-entry img {
     border: 18px solid;
-    border-image: url(../images/frame.png) 18 repeat;
+    border-image: url(/images/frame.png) 18 repeat;
     box-shadow: 2px 2px 4px #444;
 }
 
@@ -177,8 +176,7 @@ main {
     display: inline-block;
     width: 54px;
     height: 24px;
-    background-image: url(/images/nav.png);
-    background-repeat: no-repeat;
+    background: url(/images/nav.png) no-repeat;
     background-clip: content-box;
     background-origin: content-box;
     color: transparent;
