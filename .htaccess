@@ -861,9 +861,9 @@ FileETag None
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule /index.html$ / [R=301,L]
-    RewriteRule /html/(.*)_gallery_(.*).html /$1/gallery/$2.html [R=301,L]
-    RewriteRule /html/(.*).html /$1 [R=301,L]
+    RewriteRule ^index\.html$ / [R=301,L]
+    RewriteRule ^html/(.*)_gallery_(.*).html$ /$1/gallery/$2.html [R=301,L]
+    RewriteRule ^html/(.*).html$ /$1 [R=301,L]
 </IfModule>
 
 # # redirect old links
