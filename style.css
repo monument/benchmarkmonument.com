@@ -91,12 +91,12 @@ body {
     margin-top: 0.67em;
     margin-bottom: 1em;
 }
-nav {
-    float: left;
-}
 main {
     margin-left: 156px;
     font-family: Papyrus, Calibri, sans-serif;
+}
+#site-nav {
+    float: left;
 }
 
 .site-footer {
