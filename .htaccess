@@ -853,3 +853,21 @@ FileETag None
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1.$3 [L]
 </IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Redirect old links                                                 |
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule /index.html$ / [R=301,L]
+    RewriteRule /html/(.*)_gallery_(.*).html /$1/gallery/$2.html [R=301,L]
+    RewriteRule /html/(.*).html /$1 [R=301,L]
+</IfModule>
+
+# # redirect old links
+# rewrite_log on;
+# rewrite /index.html / permanent;
+# rewrite /html/(.*)_gallery_(.*).html /$1/gallery/$2.html permanent;
+# rewrite /html/(.*).html /$1 / permanent;
