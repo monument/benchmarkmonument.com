@@ -280,7 +280,7 @@ AddDefaultCharset utf-8
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-    RewriteBase /
+    # RewriteBase /
 
     # (5)
     # RewriteOptions <options>
