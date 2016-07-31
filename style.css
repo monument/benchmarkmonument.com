@@ -33,7 +33,8 @@ td a img {
 
     border: inset 1px gray;
 
-    background: url(/images/menu.png) no-repeat;
+    background-image: url(/images/menu.png);
+    background-repeat: no-repeat;
 }
 
 #link-home { background-position: 0 0; }
@@ -176,7 +177,8 @@ main {
     display: inline-block;
     width: 54px;
     height: 24px;
-    background: url(/images/nav.png) no-repeat;
+    background-image: url(/images/nav.png);
+    background-repeat: no-repeat;
     background-clip: content-box;
     background-origin: content-box;
     color: transparent;
