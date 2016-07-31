@@ -34,7 +34,7 @@ td a img {
     background-repeat: no-repeat;
     border: inset 1px gray;
 
-    background-image: url(/images/menu/sprite.png);
+    background-image: url(/images/menu.png);
 }
 
 #link-home { background-position: 0 0; }
@@ -170,12 +170,30 @@ main {
 
 .gallery-buttons {
     width: 200px;
-    display: table;
     margin: 0 auto 1.75em;
     text-align: center;
 }
 .gallery-buttons a {
-    display: table-cell;
+    display: inline-block;
+    width: 54px;
+    height: 24px;
+    background-image: url(/images/nav.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-origin: content-box;
+    color: transparent;
+}
+.gallery-buttons a {
+    padding: 0 15px;
+}
+.gallery-buttons .prev {
+    background-position: 0 0;
+}
+.gallery-buttons .up {
+    background-position: -24px 0;
+}
+.gallery-buttons .next {
+    background-position: -48px 0;
 }
 
 
